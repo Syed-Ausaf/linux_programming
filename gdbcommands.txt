@@ -1,0 +1,19 @@
+GDB
+
+
+
+
+
+1:02
+compile   :      gcc- Wall -g program.c
+start gdb :      gdb a.out (edited) 
+1:06
+commands:
+refresh(ctrl+L)
+run
+layout next
+break POINT :can be line no,fnc name
+next(n)  :Steps
+continue (continue to next breakpoint)
+print VARIABLE
+watch VARIABLE (for changes)
